@@ -1,0 +1,32 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e2f;
+  padding: 15px 30px;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  border: none;
+  background: none;
+}
+
+.nav-button{
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-button:hover{
+  background-color: #45a049;
+}
